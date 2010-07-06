@@ -1,0 +1,17 @@
+These are the quiz questions and answers behind Oz Quiz, MusicMentor, CountryCaps, and WorldFacts.
+
+A great deal of work has gone into these questions, so please use them in your noncommercial works (see the LICENSE file) and extend them with corrections and new questions.
+
+They are presented as nested javascript arrays; each array element has a list of strings inside it. The first string is the question, the second string is the correct answer, and the subsequent strings are incorrect answers to be presented alongside the correct one. If no incorrect answers are listed, then the incorrect answers should be generated as needed by picking them from the correct answers to other questions.
+
+Here's an example question:
+
+["What is Australia's most populous city?", "Sydney", "Melbourne", "Canberra", "Perth"]
+
+In this case, the first string is the question ("What is Australia's most populous city?"), the second string is the correct answer ("Sydney"), and the other strings ("Melbourne", "Canberra", "Perth") are the incorrect answers.
+
+Another example:
+
+["What is the capital of France?", "Paris"]
+
+Here, the first string is the question ("What is the capital of France?"), the other string is the correct answer ("Paris"), and the incorrect answers should be selected from the correct answers to the other questions, e.g. ("Budapest", "New Delhi", and "Ankara").
